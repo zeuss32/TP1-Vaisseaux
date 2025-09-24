@@ -1,5 +1,5 @@
 <template>
-	<nav class="navbar navbar-expand-lg bg-dark fixed-top text-danger ">
+	<nav class="navbar navbar-expand-lg bg-dark fixed-top text-white ">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">TP-VUEJS</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
   </div>
 </nav>
 
-	<div class=" w-100">
+	<div class="container-fluid">
 		<div id="header_carousel" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
@@ -55,7 +55,7 @@
 			</div>
 		</div>
 
-		<h1 class="text-center bg-primary text-white titrePage">
+		<h1 class="text-center bg-primary text-purple titrePage">
 			Starship Company🚀
 		</h1>
 		<h2>coordonnées:({{ x }},{{ y }})</h2>
@@ -76,16 +76,6 @@ function newCoords(newX, newY) {
 </script>
 
 <style>
-#header_carousel img {
-  width: 100vw !important;
-  height: auto;
-  display: block;
-}
-
-.container-fluid{
-	padding: 0px !important;
-	margin: 0px !important;
-}
 .titrePage {
 	color: white !important;
 }

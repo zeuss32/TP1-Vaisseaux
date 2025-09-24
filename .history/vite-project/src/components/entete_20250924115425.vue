@@ -77,7 +77,7 @@ function newCoords(newX, newY) {
 
 <style>
 #header_carousel img {
-  width: 100vw !important;
+  width: 100vw important;
   height: auto;
   display: block;
 }

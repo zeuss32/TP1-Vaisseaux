@@ -76,16 +76,6 @@ function newCoords(newX, newY) {
 </script>
 
 <style>
-#header_carousel img {
-  width: 100vw !important;
-  height: auto;
-  display: block;
-}
-
-.container-fluid{
-	padding: 0px !important;
-	margin: 0px !important;
-}
 .titrePage {
 	color: white !important;
 }

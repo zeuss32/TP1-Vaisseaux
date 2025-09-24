@@ -28,7 +28,7 @@
   </div>
 </nav>
 
-	<div class=" w-100">
+	<div class="container-fluid">
 		<div id="header_carousel" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
@@ -76,16 +76,6 @@ function newCoords(newX, newY) {
 </script>
 
 <style>
-#header_carousel img {
-  width: 100vw !important;
-  height: auto;
-  display: block;
-}
-
-.container-fluid{
-	padding: 0px !important;
-	margin: 0px !important;
-}
 .titrePage {
 	color: white !important;
 }
