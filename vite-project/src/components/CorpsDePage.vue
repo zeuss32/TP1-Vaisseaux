@@ -54,7 +54,7 @@
 import { ref, watch } from "vue";
 import Systemes from "@/components/SousSections/systemes.vue";
 import Vaisseaux from "@/components/SousSections/vaisseaux.vue";
-import BiensEtMateriaux from "@/components/SousSections/biens.vue";
+import BiensEtMateriaux from "@/components/SousSections/biensEtMateriaux.vue";
 
 import sysJson from "../data/systemes.json";
 import vaisJson from "../data/vaisseaux.json";
